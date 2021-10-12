@@ -12,3 +12,4 @@ Repo for creating reproducible bugs for [storybook](https://github.com/storybook
 | Branch            | Story                                | Issue |
 |-------------------|--------------------------------------|--------------
 | [main](tree/main) | [Button](stories/Button.stories.tsx) | [#nnn](https://github.com/storybookjs/storybook/issues/nnn) |
+| [better-union-handling](tree/better-union-handling) | [MaterialButton](stories/MaterialButton.stories.tsx) | [#nnn](https://github.com/storybookjs/storybook/issues/16321) |
