@@ -13,4 +13,4 @@ Repo for creating reproducible bugs for [storybook](https://github.com/storybook
 | Branch            | Story                                | Issue |
 |-------------------|--------------------------------------|--------------
 | [main](tree/main) | [Button](stories/Button.stories.tsx) | [#nnn](https://github.com/storybookjs/storybook/issues/nnn) |
-| [cant-disable-control-for-inferred](tree/cant-disable-control-for-inferred) | [Button](stories/Button.stories.tsx) | [#nnn](https://github.com/storybookjs/storybook/issues/nnn) |
+| [cant-disable-control-for-inferred](tree/cant-disable-control-for-inferred) | [Button](stories/Button.stories.tsx) | [#16340](https://github.com/storybookjs/storybook/issues/16340) |
