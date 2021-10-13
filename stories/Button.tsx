@@ -18,6 +18,7 @@ interface ButtonProps {
    * Button contents
    */
   label: string;
+  labelRef: React.Ref<HTMLSpanElement>;
   /**
    * Optional click handler
    */
@@ -32,6 +33,7 @@ export const Button = ({
   size = 'medium',
   backgroundColor,
   label,
+  labelRef,
   ...props
 }: ButtonProps) => {
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
@@ -42,7 +44,7 @@ export const Button = ({
       style={{ backgroundColor }}
       {...props}
     >
-      {label}
+      <span ref={labelRef}>{label}</span>
     </button>
   );
 };
